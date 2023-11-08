@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="tailwindcss.js"></script>
+    <title>Login</title>
+</head>
+<body>
+    <div class="flex justify-between">
+        <div class="flex justify-center items-center w-1/2">
+            <div class="flex items-center justify-center h-screen bg-white">
+                <div class=" p-8 max-w-md w-full">
+                    <div class="bg-blue-200 h-12 w-12   rounded font-bold text-sm text-blue-600">
+                        E241
+                    </div>
+                    <div>
+                        <h1 class="text-3xl font-bold py-2">
+                            Connexion
+                        </h1>
+                        <p class="text-sm text-gray-700  pb-5">
+                            Siasissez votre email et votre mot de passe pour avoir <br> accès au Dashbord
+                        </p>
+                    </div>
+
+                    <form>
+                        <div class="mb-4">
+                            <label class="block text-gray-700 text-sm font-bold" htmlFor="email">
+                            E-mail de Connexion
+                            </label>
+                            <input
+                            class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                            id="email"
+                            type="email"
+                            placeholder="Sapul@gmail.com"
+                            />
+                        </div>
+                        <div class="mb-4">
+                            <label class="block text-gray-700 text-sm font-bold" htmlFor="password">
+                            Mot de passe 
+                            <a class="text-violet-500 text-xs ml-[150px] hover:underline" href="/Forgot.html">
+                                Mot de passe oublié ?
+                            </a>
+                            </label>
+                            <input
+                            class="shadow appearance-none border rounded w-full py-2 px-3 placeholder:text-black placeholder:font-bold text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                            id="password"
+                            type="password"
+                            placeholder="............"
+                            />
+                        </div>
+                        <div class="mb-4 flex items-center">
+                            <input
+                            class="mr-2 leading-tight"
+                            id="rememberMe"
+                            type="checkbox"
+                            />
+                            <label class="text-gray-700 text-sm" htmlFor="rememberMe">
+                            Se souvenir de moi
+                            </label>
+                        </div>
+                        <div class="mb-6">
+                            <button
+                            class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded w-full focus:outline-none focus:shadow-outline"
+                            type="button"
+                            >
+                            Connexion
+                            </button>
+                        </div>
+                        <div>
+                            <p>
+                                Vous n'avez pas de compte?  <span class="text-blue-600"><a href="#">Créer un c'est gratui</a></span>
+                            </p>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <!-- la partie de droite -->
+
+        <div class="bg-violet-800 w-1/2 flex justify-center items-center">
+            <div>
+                <div>
+                    <img src="./image/Group 9.png" alt="" class="">
+                </div>
+                <div class="px-20 ">
+                    <span class="text-sm text-white py-7">
+                        Ecole241.BUSINESS
+                    </span>
+                    <p class="text-white  text-2xl">
+                        Etudier en ligne devient plus facil- <br> Vous pouvez toujours étudier avec Ecole <br> 241 Business
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
